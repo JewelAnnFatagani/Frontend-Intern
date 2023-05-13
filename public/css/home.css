@@ -1,0 +1,71 @@
+.bg{
+    background-color: rgb(228, 228, 228);
+}
+main{
+    background: url(/img/home.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.topcontent{
+    display: flex; 
+    justify-content:center;
+}
+#navbar{
+    height: 96.5%;
+    opacity: 80%;
+}
+.logo{
+    /* background-color: aquamarine; */
+    width: 15%;
+    margin: auto;
+}
+li{
+    list-style-type: none;
+    height: 100%;
+    display: flex;
+}
+li a{
+    text-decoration: none;
+    color:  white;
+    margin:auto;
+}
+.navmenu{
+    width: 40%;
+    /* background-color: rgb(90, 38, 38); */
+    margin:auto;
+}
+.cap{
+    top:30%;
+    width: 100%;
+}
+.cap-content{
+    display: flex;
+    justify-content: center;
+}
+.caption-header{
+    color:white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+    letter-spacing: 5px;
+}
+.caption-content{
+    color:white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.3rem;
+    /* letter-spacing: 5px; */
+    width: 50%;
+    text-align:center;
+}
+.poppins{
+    font-family: 'Poppins', sans-serif;
+}
+.adamina{
+    font-family: 'Adamina', serif;
+}
+.service_title{
+    height: 15%;
+}
+.service_content{
+    height: 35%;
+}
